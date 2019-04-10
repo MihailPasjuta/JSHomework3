@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+</head>
+<body>
+   <script>
+   "use strict";
+	///////1
+		function isNumberInRange(a)
+		{
+			if(a>0&&a<10)alert(true);
+			else
+			alert(false);
+		}
+		var a=prompt("1 задание","");
+		isNumberInRange(a);
+	///////////2
+		function isEven(b)
+		{
+			if(b%2==0)alert(true);
+			else
+			alert(false);
+		}
+		var b=prompt("2 задание \n Введите целое число","");
+		isEven(b);
+	/////////3
+		var value = prompt('3 задание\nvalue?', '');
+		switch(value)
+		{
+			case "0":
+			{
+				alert(0);
+				break;
+			}
+			case "1":
+			{
+				alert(1);
+				break;
+			}
+			case "2":
+			{
+				alert("2,3");
+				break;
+			}
+			case "3":
+			{
+				alert("2,3");
+				break;
+			}
+			default:
+			{
+				alert("Other value!");
+				break;
+			}
+		}
+	////////////////4
+	function min(a,b)
+		{
+			if(a>b)
+			alert(b);
+			else
+			if(b>a)
+			alert(a);
+			else
+			alert("Равные числа");
+		}
+		var c=prompt("4 задание \n a=","");
+		var d=prompt("4 задание \n b=","");
+		min(Number(c),Number(d));
+    </script>
+</body>
+</html>
